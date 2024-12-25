@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import { LoginForm } from "./components/LoginForm";
-import { RoomStatus } from "./components/RoomStatus";
-import { checkAuth } from "./utils/auth";
-import { usePeople } from "./hooks/usePeople";
+import { LoginForm } from "./src/components/LoginForm";
+import { RoomStatus } from "./src/components/RoomStatus";
+import { checkAuth } from "./src/utils/auth";
+import { usePeople } from "./src/hooks/usePeople";
 
 function App() {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
